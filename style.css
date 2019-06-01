@@ -1,0 +1,69 @@
+:root {
+	--number-color: ;
+	--operator-color: ;
+	--function-color: ;
+}
+
+html, body {
+	background: red;
+}
+.container {
+	background: black;
+	font-size: 60px;
+	width: 50%;
+	padding: 10px 15px;
+}
+
+#display {
+	color: white;
+	background: black;
+	text-align: right;
+	padding: 0 2.5%;
+	height: 150px;
+	position: relative;
+}
+#display-bottom {
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+}
+
+button {
+	border: none;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	font-size: 20px;
+}
+
+#buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-row {
+	display: flex;
+	flex-direction: row;
+}
+
+#zero {
+	width: 110px;
+	border-radius: 50px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.function {
+	background: lightgray;
+}
+
+.number {
+	background: darkgray;
+	color: white;
+}
+
+.operator {
+	background: orange;
+	color: white;
+}
